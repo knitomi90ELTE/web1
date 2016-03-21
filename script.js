@@ -4,6 +4,6 @@ function $(selector) {
 
 window.addEventListener('scroll',onScrollEventListener, true);
 
-function onScrollEventListener(e){
+function onScrollEventListener(e) {
     $('#navHeader').style.marginTop = window.scrollY + "px";
 }
