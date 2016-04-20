@@ -3,67 +3,79 @@
     <head>
         <title>Kérdőív - Rédei Katalin weboldala</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     </head>
     <body>
-        <header>
-            <img src="img/header.png" alt="header kép" class="header-image"/>
+        <header id="navHeader">
+            <nav>
+                <a href="index.html">Főoldal</a>
+                <a href="story.html">Történet</a>
+                <a href="types.html">Macskafajták</a>
+                <a href="contact.html">Kérdőív</a>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Főoldal</a>
-            <a href="story.html">Történet</a>
-            <a href="types.html">Macskafajták</a>
-            <a href="contact.html">Kérdőív</a>
-        </nav>
-        <article>
-            <h1>Házimacskák</h1>
-            
-            <form action="mail.php" method="POST">
-                
-                <label>Milyen színű cica szerinted a legszebb?</label>
-                <br>
-                <select name="color">
-                    <option value="Bicolor" selected>Bicolor, tuxedo és van</option>
-                    <option value="Cirmos">Cirmos</option>
-                    <option value="Teknőctarka">Teknőctarka és calico</option>
-                    <option value="Colorpoint">Colorpoint</option>
-                    <option value="Szőrtelen">Szőrtelen</option>
-                </select>
-                <br>
-                
-                <label>Van cicád?</label>
-                <br>
-                <input type="radio" name="hascat" value="Van" checked> Van
-                <input type="radio" name="hascat" value="Nincs"> Nincs
-                <br>
-                
-                <label>Milyen fajta cicát fogadnál szívesen örökbe?</label>
-                <br>
-                <input type="checkbox" value="Házimacska" name="type"> Házimacskát <br>
-                <input type="checkbox" value="Maine Coon" name="type"> Maine Coon-t <br>
-                <input type="checkbox" value="Bengáli" name="type"> Bengálit <br>
-                <input type="checkbox" value="Sziámi" name="type"> Sziámit <br>
-                <input type="checkbox" value="Perzsa" name="type"> Perzsát <br>
-                <input type="checkbox" value="Semmilyet" name="type"> Semmilyet
-                
-                <br>
-                <label>E-mail cím, amire elküldhetjük a mailt:</label>
-                <br>
-                <input type="text" name="email" placeholder="email-cím" maxlength="50">
-                
-                
-                <br>
-                <input type="submit" value="Küldés">
-                <input type="reset" value="Alaphelyzet">
-            </form>
-        </article>
+        <header>
+            <img src="img/header.jpg" alt="header kép" class="header-image"/>
+        </header>
+        <section>
+            <h1>Kérdőív</h1>
+            <article class="half-page">
+                <h2>Töltsd ki a kérdőívemet!</h2>
+                <form action="mail.php" method="POST">
+
+                    <label>Milyen színű cica szerinted a legszebb?</label>
+                    <br>
+                    <select name="color">
+                        <option value="Bicolor" selected>Bicolor, tuxedo és van</option>
+                        <option value="Cirmos">Cirmos</option>
+                        <option value="Teknőctarka">Teknőctarka és calico</option>
+                        <option value="Colorpoint">Colorpoint</option>
+                        <option value="Szőrtelen">Szőrtelen</option>
+                    </select>
+                    <br>
+
+                    <label>Van cicád?</label>
+                    <br>
+                    <input type="radio" name="hascat" value="Van" checked> Van
+                    <input type="radio" name="hascat" value="Nincs"> Nincs
+                    <br>
+
+                    <label>Milyen fajta cicát fogadnál szívesen örökbe?</label>
+                    <br>
+                    <input type="checkbox" value="Házimacska" name="type"> Házimacskát <br>
+                    <input type="checkbox" value="Maine Coon" name="type"> Maine Coon-t <br>
+                    <input type="checkbox" value="Bengáli" name="type"> Bengálit <br>
+                    <input type="checkbox" value="Sziámi" name="type"> Sziámit <br>
+                    <input type="checkbox" value="Perzsa" name="type"> Perzsát <br>
+                    <input type="checkbox" value="Semmilyet" name="type"> Semmilyet
+
+                    <br>
+                    <label>E-mail cím, amire elküldhetjük a mailt:</label>
+                    <br>
+                    <input type="text" name="email" placeholder="email-cím" maxlength="50">
+
+
+                    <br>
+                    <input type="submit" value="Küldés">
+                    <input type="reset" value="Alaphelyzet">
+                </form>
+            </article>
+
+            <article class="half-page-2">
+                <h2>Élmények egy macskakiállításról</h2>
+                <video src="video/Macskakiallitas.webm" title="Macskakiállítás" height="360" width="480" controls poster="img/video_thumb.png">
+
+                </video>
+            </article>
+
+        </section>>
         <footer>
             <p>Ez a honlap a Webfejlesztés 1. kurzus kereteiben készült</p>
             <p>Készítette: Rédei Katalin - OW03SW</P>
             <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank">Macskák</a></p>
         </footer>
-        <script src="script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

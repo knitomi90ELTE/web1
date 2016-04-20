@@ -3,74 +3,103 @@
     <head>
         <title>Történet - Rédei Katalin weboldala</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     </head>
     <body>
-        <header>
-            <img src="img/header.png" alt="header kép" class="header-image"/>
+        <header id="navHeader">
+            <nav>
+                <a href="index.html">Főoldal</a>
+                <a href="story.html">Történet</a>
+                <a href="types.html">Macskafajták</a>
+                <a href="contact.html">Kérdőív</a>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Főoldal</a>
-            <a href="story.html">Történet</a>
-            <a href="types.html">Macskafajták</a>
-            <a href="contact.html">Kérdőív</a>
-        </nav>
-        <article>
-            <h1>Házimacskák</h1>
 
-            <table>
-                <caption>
-                    <strong>A macskák száma országonként</strong>
-                    <details>
-                        <summary>Forrás:</summary>
-                        <p><a href="https://hu.wikipedia.org/wiki/Macska#Tart.C3.A1s" target="blank">Wikipedia, Macskatartás</a></p>
-                    </details>
-                </caption>
-                <thead>
-                    <tr>
-                        <th>Ország</th>
-                        <th>Macska</th>
-                        <th>Év</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Magyarország</td>
-                        <td>3 millió</td>
-                        <td>2006</td>
-                    </tr>
-                    <tr>
-                        <td>Egyesült Államok</td>
-                        <td>90-93 millió</td>
-                        <td>2007</td>
-                    </tr>
-                    <tr>
-                        <td>Svájc</td>
-                        <td>1,35 millió</td>
-                        <td>2006</td>
-                    </tr>
-                    <tr>
-                        <td>Egyesült Királyság</td>
-                        <td>8 millió</td>
-                        <td>2004</td>
-                    </tr>
-                    <tr>
-                        <td>Ausztrália</td>
-                        <td>8 millió</td>
-                        <td>2001</td>
-                    </tr>
-                </tbody>
+        <header>
+            <img src="img/header.jpg" alt="header kép" class="header-image"/>
+        </header>
 
-            </table>
+        <section>
+            <h1>Házimacskák története</h1>
+            <article>
+                <h2>Háziasítás</h2>
+                <p>
+                    A macska háziasítása rendkívül sokáig tartott, kezdete az ember letelepedésének időszakára tehető. 
+                    Egyre több bizonyíték kerül elő, melyek azt bizonyítják, hogy a folyamat már jóval előbb elkezdődött, mint ahogyan azt ma gondoljuk. 
+                    Különböző maradványokat találtak Jerikómellett, melyek korát 9000 évesre becsülik. Egy ideig nem volt bizonyíték arra, 
+                    hogy ezek tényleg háziasított állatok lehettek, de egy francia paleozoológus, Jean-Denis Vigne és munkatársai 2004 áprilisában a ciprusi 
+                    Shilloukambos mellett feltártak egy egykori kőkorszaki település temetőjében egy sírt, amelyben az eltemetett ember mellett egy macska csontjait is megtalálták.  
+                    Anatóliában is találtak olyan, körülbelül i. e. 6000 táján készült szobrokat, amelyek macskával játszó asszonyokat ábrázolnak. 
+                    Ezek alapján feltételezhető, hogy a macska háziasítása Elő-Ázsia területén már 9500 évvel ezelőtt is elkezdődhetett. 
+                    Egy 2007-es DNS-vizsgálat eredménye szerint ősétől már 100-130 ezer évvel ezelőtt elvált, jóval korábban, mint azt a régészeti leletek bizonyítják, 
+                    majd a termékeny félhold területén élő emberekhez szegődött, hamarabb, mint a kutya. Számos ősi vallás szerint a macskák felemelkedett lelkek,
+                    melyek az emberek társai vagy vezetői, minden dolgok tudói, akik azért hallgatnak, hogy ne befolyásolják pártfogoltjaikat. 
+                    Egyes hiedelmek szerint hatodik érzékkel rendelkeznek, képesek a lelkek, a szellemek és a gonoszság észlelésére. 
+                    A macskákhoz még ma is kapcsolódnak különféle babonák, és számuk nagyon elterjedt a világon.
+                </p>
+                
+                <figure style="margin-right: 0;">
+                    <a href="img/statue.jpg" target="blank"><img src="img/statue_thumb.jpg" alt="Ősi macskaszobor" width="300"></a>
+                    <figcaption>Ősi macskaszobor</figcaption>
+                </figure>
 
-        </article>
+            </article>
+
+            <aside>
+                <table>
+                    <caption>
+                        <strong>A macskák száma országonként</strong>
+                        <details>
+                            <summary>Forrás:</summary>
+                            <p><a href="https://hu.wikipedia.org/wiki/Macska#Tart.C3.A1s" target="blank">Wikipedia, Macskatartás</a></p>
+                        </details>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Ország</th>
+                            <th>Macska</th>
+                            <th>Év</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Magyarország</td>
+                            <td>3 millió</td>
+                            <td>2006</td>
+                        </tr>
+                        <tr>
+                            <td>Egyesült Államok</td>
+                            <td>90-93 millió</td>
+                            <td>2007</td>
+                        </tr>
+                        <tr>
+                            <td>Svájc</td>
+                            <td>1,35 millió</td>
+                            <td>2006</td>
+                        </tr>
+                        <tr>
+                            <td>Egyesült Királyság</td>
+                            <td>8 millió</td>
+                            <td>2004</td>
+                        </tr>
+                        <tr>
+                            <td>Ausztrália</td>
+                            <td>8 millió</td>
+                            <td>2001</td>
+                        </tr>
+                    </tbody>
+
+                </table>           
+            </aside>
+        </section>
+
         <footer>
             <p>Ez a honlap a Webfejlesztés 1. kurzus kereteiben készült</p>
             <p>Készítette: Rédei Katalin - OW03SW</P>
             <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank">Macskák</a></p>
         </footer>
-        <script src="script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
