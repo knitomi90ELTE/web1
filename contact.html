@@ -14,6 +14,7 @@
                 <a href="story.html">Történet</a>
                 <a href="types.html">Macskafajták</a>
                 <a href="contact.html">Kérdőív</a>
+                <div id="timeDiv"></div>
             </nav>
         </header>
         <header>
@@ -21,10 +22,9 @@
         </header>
         <section>
             <h1>Kérdőív</h1>
-            <article class="half-page">
+            <article>
                 <h2>Töltsd ki a kérdőívemet!</h2>
                 <form action="mail.php" method="POST">
-
                     <label>Milyen színű cica szerinted a legszebb?</label>
                     <br>
                     <select name="color">
@@ -35,13 +35,11 @@
                         <option value="Szőrtelen">Szőrtelen</option>
                     </select>
                     <br>
-
                     <label>Van cicád?</label>
                     <br>
                     <input type="radio" name="hascat" value="Van" checked> Van
                     <input type="radio" name="hascat" value="Nincs"> Nincs
                     <br>
-
                     <label>Milyen fajta cicát fogadnál szívesen örökbe?</label>
                     <br>
                     <input type="checkbox" value="Házimacska" name="type"> Házimacskát <br>
@@ -50,31 +48,25 @@
                     <input type="checkbox" value="Sziámi" name="type"> Sziámit <br>
                     <input type="checkbox" value="Perzsa" name="type"> Perzsát <br>
                     <input type="checkbox" value="Semmilyet" name="type"> Semmilyet
-
                     <br>
                     <label>E-mail cím, amire elküldhetjük a mailt:</label>
                     <br>
                     <input type="text" name="email" placeholder="email-cím" maxlength="50">
-
-
                     <br>
                     <input type="submit" value="Küldés">
                     <input type="reset" value="Alaphelyzet">
                 </form>
             </article>
-
-            <article class="half-page-2">
-                <h2>Élmények egy macskakiállításról</h2>
+            <article>
+                <h2>Élmények egy macskakiállításról (3:01)</h2>
                 <video src="video/Macskakiallitas.webm" title="Macskakiállítás" height="360" width="480" controls poster="img/video_thumb.png">
-
                 </video>
             </article>
-
-        </section>>
+        </section>
         <footer>
             <p>Ez a honlap a Webfejlesztés 1. kurzus kereteiben készült</p>
             <p>Készítette: Rédei Katalin - OW03SW</P>
-            <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank">Macskák</a></p>
+            <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank" class="footer_link">Macskák</a></p>
         </footer>
         <script src="js/script.js"></script>
     </body>

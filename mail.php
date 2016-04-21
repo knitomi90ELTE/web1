@@ -14,6 +14,7 @@
                 <a href="story.html">Történet</a>
                 <a href="types.html">Macskafajták</a>
                 <a href="contact.html">Kérdőív</a>
+                <div id="timeDiv"></div>
             </nav>
         </header>
         <header>
@@ -24,7 +25,7 @@
             <article>
                 <h2>Fogadott adatok</h2>
                 <p>Az emailt elküldtük a(z) <?php echo $_POST["email"]; ?> címre (nem)!</p>
-                <p>Szerined a legszebb színű cica <?php echo $_POST["color"]; ?></p>
+                <p>Szerinted a legszebb színű cica a <?php echo $_POST["color"]; ?></p>
                 <p>Van-e cicád <?php echo $_POST["hascat"]; ?></p>
                 <p>Ilyen fajta cicát fogadnál szívesen örökbe <?php echo $_POST["type"]; ?></p>
                 
@@ -34,7 +35,7 @@
         <footer>
             <p>Ez a honlap a Webfejlesztés 1. kurzus kereteiben készült</p>
             <p>Készítette: Rédei Katalin - OW03SW</P>
-            <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank">Macskák</a></p>
+            <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Macska" target="blank" class="footer_link">Macskák</a></p>
         </footer>
         <script src="js/script.js"></script>
     </body>

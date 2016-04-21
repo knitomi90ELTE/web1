@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    background-color: #4DBCE9;
+    background-color: #a5e5ff;
     width: 66%;
     margin-left: 17%;
     padding: 10px;
@@ -16,25 +16,6 @@ section {
 
 article {
     padding: 10px;
-}
-
-.half-page {
-    /*width: 50%;*/
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: block;
-}
-
-.half-page-2{
-    /*width: 50%;*/
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: block;
-    margin-right: 0;
 }
 
 #navHeader {
@@ -49,15 +30,19 @@ article {
     width: 67%;
     margin-left: 17%;
 }
+
 nav  {
     width: 100%;
+    margin-top: 0.7%;
 }
+
 nav > a {
     text-decoration: none;
     color: whitesmoke;
     position: relative;
     margin-left: 5%;
 }
+
 nav > a:active, a:visited {
     color: whitesmoke;
 }
@@ -86,7 +71,6 @@ td {
     padding: 5px;
 }
 
-
 footer {
     padding: 10px;
     background-color: #000055;
@@ -109,4 +93,19 @@ input {
 
 select {
     font-size: 1.1em;
+}
+
+#timeDiv {
+    float: right;
+    margin-right: 3%;
+    color: whitesmoke;
+    top: 10px;  
+}
+
+p > a:visited {
+    color: #f26513;
+}
+
+.footer_link {
+    color: whitesmoke;
 }

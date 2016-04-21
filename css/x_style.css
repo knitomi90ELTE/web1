@@ -1,5 +1,5 @@
 .section {
-    background-color: #4DBCE9;
+    background-color: #a5e5ff;
     width: 66%;
     margin-left: 17%;
     padding: 10px;
@@ -11,6 +11,7 @@
 
 .nav {
     width: 100%;
+    margin-top: 0.7%;
 }
 
 .nav > a {
